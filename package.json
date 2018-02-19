@@ -5,7 +5,7 @@
   "homepage": "https://github.com/lotjomik/angular4-swagger-client-generator",
   "main": "index.js",
   "bin": {
-    "a4apigen": "./bin/a4apigen.js"
+    "a4apigen": "bin/a4apigen.js"
   },
   "author": {
     "name": "Mika Lötjönen",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:lotjomik/angular4-swagger-client-generator.git"
+    "url": "git@github.com/cyphercodes96/angular5-swagger-codegen.git"
   },
   "keywords": [
     "swagger",
@@ -32,7 +32,7 @@
   ],
   "license": "Apache-2.0",
   "scripts": {
-    "a4apigen": "a4apigen -s swagger.json",
+    "a4apigen": "a4apigen -u http://localhost:8888/api/v1/swagger.json",
     "build": "gulp"
   },
   "dependencies": {
